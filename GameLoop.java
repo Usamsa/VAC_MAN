@@ -52,8 +52,8 @@ public void run() {
 		add(model.getlView());
 		try {
 			display = LighthouseDisplay.getDisplay();
-			display.setUsername("AlexanderZ");
-			display.setToken("API-TOK_4uf3-CsMd-4l2W-1Qq2-07sL");
+			display.setUsername("XXXX");
+			display.setToken("XXXX");
 		} catch (Exception e) {
 			System.out.println("Connection failed: " + e.getMessage());
 			e.printStackTrace();
@@ -101,7 +101,7 @@ public void run() {
 		while(true) {
 			double previous2 = System.currentTimeMillis();
 			if(frameCount == 0) {
-				model.update();//Im Model wird der Controller auch ausgeführt.
+				model.update();//Im Model wird der Controller auch ausgefï¿½hrt.
 				add(model.getView());
 				frameCount = 10;
 			}
